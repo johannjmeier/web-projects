@@ -2,9 +2,10 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Johann Julius Meier's Webpage</title>
+    <title>Get to know me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome-Bibliothek einbinden -->
     <style>
         body {
             background-color: #f7f7f7;
@@ -14,78 +15,128 @@
             text-align: center;
             overflow-x: auto;
         }
-        
+
         h1 {
             color: #333;
             font-size: 40px;
             letter-spacing: 2px;
             margin-bottom: 20px;
         }
-        
+
         p {
             color: #777;
             font-size: 20px;
             margin-bottom: 30px;
         }
-        
+
         h2 {
             color: #007bff;
             font-size: 30px;
             font-weight: bold;
             margin-bottom: 10px;
         }
-        
+
         a {
             color: #007bff;
             font-size: 18px;
             text-decoration: none;
             transition: color 0.3s ease;
         }
-        
+
         a:hover {
             color: #0056b3;
         }
-        
+
         h3 {
             color: #555;
             font-size: 24px;
             margin-bottom: 10px;
         }
-        
+
         h4 {
             color: #555;
             font-size: 22px;
             margin-bottom: 8px;
         }
-        
+
         h5 {
             color: #555;
             font-size: 20px;
             margin-bottom: 6px;
         }
-        
+
         h6 {
             color: #555;
             font-size: 18px;
             margin-bottom: 4px;
         }
-        
+
         ul {
             text-align: left;
             margin-left: 20px;
         }
-        
+
         .content-container {
             display: inline-block;
             min-width: 100%;
         }
+
+        .sidebar {
+            width: 250px;
+            background-color: #333030;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .sidebar-content {
+            padding: 20px;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            font-size: 18px;
+            color: #fff;
+        }
+
+
+
+        .contact-info a, .contact-info p {
+            color: #fff; /* Weiße Farbe für Links und Text */
+            font-size: 12px; /* Verkleinerte Schriftgröße für Kontaktinformationen in der Sidebar */
+    }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
-    <div class="content-container">
+    <div class="sidebar">
+        <div class="sidebar-content">
+            <div class="contact-info">
+                <h2>Contact me</h2>
+                <p><i class="fas fa-mobile-alt"></i> +49 1522 4126861 </p> <!-- Mobile-Icon -->
+                <p><a href="mailto:johannjm@icloud.com"><i class="fas fa-envelope"></i> johannjm@icloud.com</a></p> <!-- Klickbarer Email-Link -->
+                <p><a href="https://www.linkedin.com/in/johann-julius-meier/"><i class="fab fa-linkedin"></i> LinkedIn</a></p> <!-- LinkedIn-Icon with link -->
+                <p><a href="https://github.com/johannjmeier"><i class="fab fa-github"></i> Github</a></p> <!-- GitHub-Icon with link -->                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    <div class="main-content">
+        <img src="jjm_biz_apr23.jpg" alt="Beschreibung des Bildes" style="width: 60%; height: auto;">
         <h1>Johann Julius Meier</h1>
         <p>Data Analyst</p>
-        <p><strong>Contact:</strong> +49 1522 4126861 | johannjm@icloud.com</p>
         <h2>Personal Background</h2>
         <p>Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to highly contribute to your Global Insights Team. I have excellent communication and networking skills, work well in both team and independent settings, excel under pressure, and consistently deliver high-quality results.</p>
         <h2>Experiences</h2>
